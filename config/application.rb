@@ -21,3 +21,6 @@ module Treebook
     # config.i18n.default_locale = :de
   end
 end
+
+# # As per devise instructions
+# config.assets.initialize_on_precompile = false
