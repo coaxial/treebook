@@ -8,4 +8,20 @@
   p {
     margin: 4px 0;
   }
+  .admin {
+    display: none;
+  }
+  &:hover {
+    background-color: #F0F0F0;
+    .admin {
+      display: inline;
+    }
+  }
 }
+
+// /* Legacy for browsers that don't know the :hover pseudoclass */
+// .hover {
+//   .admin {
+//     display: inline;
+//   }
+// }
